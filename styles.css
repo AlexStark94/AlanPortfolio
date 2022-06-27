@@ -1,0 +1,112 @@
+body {
+    background-color: rgb(20, 20, 20) !important;
+    color: white;
+    padding: 0;
+    margin: 0;
+}
+
+a {
+    text-decoration: none !important;
+    color: aliceblue !important;
+}
+
+.navbar {
+    position: sticky;
+    top: 0;
+    z-index: 99;
+    min-height: 22rem !important;
+    background-image: url('./assets/10.jpeg');
+    background-size: cover;
+    background-position-y: 57%;
+    background-position-x: 15vw;
+    box-shadow:  13px 13px 26px #000000,
+             -13px -13px 26px #000000;
+}
+
+.navbar, .container {
+    background-color: transparent;
+}
+
+.photo {
+    height: 10rem;
+    border-radius: 50%;
+}
+
+.row-image {
+    overflow: hidden;
+    margin: auto !important;
+    width: 10rem;
+    border-radius: 50%;
+    margin: auto;
+    box-shadow:  10px 10px 20px #131313,
+             -10px -10px 20px #0c0c0c;
+}
+
+.icon {
+    position: absolute;
+    color: #ffffff82;
+    font-size: 2rem;
+    left: 2rem;
+    top: 0.5rem;
+}
+
+.video {
+    width: 100%;
+}
+
+.col-xxl-4, .col-xl-4, .col-lg-4, .col-md-6, .col-sm-12 {
+    padding: 0 !important;
+    border: 1px solid rgba(128, 128, 128, 0.192);
+}
+
+.video-container {
+    border-radius: 1rem;
+    overflow: hidden;
+}
+
+.image-container {
+    border-radius: 1rem;
+    overflow: hidden;
+}
+
+.col-3 {
+    padding: 0 !important;
+    border: 1px solid rgba(128, 128, 128, 0.192);
+}
+
+.col-4 {
+    padding: 0 !important;
+    border: 1px solid rgba(128, 128, 128, 0.192);
+}
+
+.collection-img {
+    width: 100%;
+}
+
+.image-profile {
+    height: 140%;
+    margin: -1rem;
+}
+
+.description {
+    color: rgb(184, 184, 184);
+}
+
+.name-artist {
+    font-size: 2rem;
+    color: white;
+    font-weight: 500;
+}
+
+.collections {
+    padding-top: 4rem;
+    margin-bottom: 10rem;
+}
+
+.container, .container-lg, .container-md, .container-sm, .container-xl {
+    max-width: 90vw !important;
+}
+
+.title-container {
+    color: white;
+}
