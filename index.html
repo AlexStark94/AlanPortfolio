@@ -1,145 +1,179 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Alan Corral - 3D Artist</title>
-    <link rel="stylesheet" href="./styles.css" />
-    <link
-      rel="stylesheet"
-      href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css"
-      integrity="sha384-zCbKRCUGaJDkqS1kPbPd7TveP5iyJE0EjAuZQTgFLD2ylzuqKfdKlfG/eSrtxUkn"
-      crossorigin="anonymous"
-    />
-    <link
-      rel="stylesheet"
-      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.3/font/bootstrap-icons.css"
-    />
-  </head>
-  <body>
-    <div class="navbar text-center">
-      <div class="container d-block">
-        <div class="row row-image">
-          <div class="photo col p-2 rounded overflow-hidden">
-            <img class="image-profile" src="./assets/photo.jpeg" alt="" />
-          </div>
-        </div>
-        <div class="row">
-          <div class="name-artist col p-2">Alan Corral - 3D Artist</div>
-        </div>
-        <div class="row">
-          <div class="description col p-2">
-            <i class="bi bi-brush"></i>
-            3D Artist | calan4310@gmail.com
-          </div>
-        </div>
-        <div class="row">
-          <div class="description col p-2">
-            <i class="bi bi-linkedin"></i>
-            <a href="https://www.linkedin.com/in/alan-corral-81b9651a2">
-              linkedin.com/in/alan-corral-81b9651a2
-            </a>
-          </div>
-        </div>
-      </div>
-    </div>
-    <div class="container collections">
-      <!-- Videos -->
-      <div class="row">
-        <div class="col-12 text-center m-2 title-container">
-          <h3>Videos</h3>
-        </div>
-      </div>
-      <div class="row m-4 video-container">
-        <div class="col-xxl-4 col-xl-4 col-lg-4 col-md-6 col-sm-12">
-          <i class="bi bi-play icon"></i>
-          <video class="video" autoplay muted loop>
-            <source src="./assets/7.mp4" type="video/mp4" />
-          </video>
-        </div>
-        <div class="col-xxl-4 col-xl-4 col-lg-4 col-md-6 col-sm-12">
-          <i class="bi bi-play icon"></i>
-          <video class="video" autoplay muted loop>
-            <source src="./assets/8.mp4" type="video/mp4" />
-          </video>
-        </div>
-        <div class="col-xxl-4 col-xl-4 col-lg-4 col-md-6 col-sm-12">
-          <i class="bi bi-play icon"></i>
-          <video class="video" autoplay muted loop>
-            <source src="./assets/9.mp4" type="video/mp4" />
-          </video>
-        </div>
-        <div class="col-xxl-4 col-xl-4 col-lg-4 col-md-6 col-sm-12">
-          <i class="bi bi-play icon"></i>
-          <video class="video" autoplay muted loop>
-            <source src="./assets/4.mp4" type="video/mp4" />
-          </video>
-        </div>
-        <div class="col-xxl-4 col-xl-4 col-lg-4 col-md-6 col-sm-12">
-          <i class="bi bi-play icon"></i>
-          <video class="video" autoplay muted loop>
-            <source src="./assets/5.mp4" type="video/mp4" />
-          </video>
-        </div>
-        <div class="col-xxl-4 col-xl-4 col-lg-4 col-md-6 col-sm-12">
-          <i class="bi bi-play icon"></i>
-          <video class="video" autoplay muted loop>
-            <source src="./assets/6.mp4" type="video/mp4" />
-          </video>
-        </div>
-        <div class="col-xxl-4 col-xl-4 col-lg-4 col-md-6 col-sm-12">
-          <i class="bi bi-play icon"></i>
-          <video class="video" autoplay muted loop>
-            <source src="./assets/0.mp4" type="video/mp4" />
-          </video>
-        </div>
-        <div class="col-xxl-4 col-xl-4 col-lg-4 col-md-6 col-sm-12">
-          <i class="bi bi-play icon"></i>
-          <video class="video" autoplay muted loop>
-            <source src="./assets/2.mp4" type="video/mp4" />
-          </video>
-        </div>
-        <div class="col-xxl-4 col-xl-4 col-lg-4 col-md-6 col-sm-12">
-          <i class="bi bi-play icon"></i>
-          <video class="video" autoplay muted loop>
-            <source src="./assets/3.mp4" type="video/mp4" />
-          </video>
-        </div>
-      </div>
 
-      <!-- Photos -->
-      <div class="row title-container">
-        <div class="col-12 text-center m-2">
-          <h3>Screenshots</h3>
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Alan Corral - 3D Artist</title>
+  <link rel="stylesheet" href="./styles.css" />
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css"
+    integrity="sha384-zCbKRCUGaJDkqS1kPbPd7TveP5iyJE0EjAuZQTgFLD2ylzuqKfdKlfG/eSrtxUkn" crossorigin="anonymous" />
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.3/font/bootstrap-icons.css" />
+</head>
+
+<body>
+  <div class="navbar text-center">
+    <div class="container d-block">
+      <div class="row row-image">
+        <div class="photo col p-2 rounded overflow-hidden">
+          <img class="image-profile" src="./assets/photo.jpeg" alt="" />
         </div>
       </div>
-      <div class="row m-4 image-container">
-        <div class="col-xxl-4 col-xl-4 col-lg-4 col-md-6 col-sm-12">
-          <img class="collection-img" src="./assets/10.jpeg" alt="" />
+      <div class="row">
+        <div class="name-artist col p-2">Alan Corral - 3D Artist</div>
+      </div>
+      <div class="row">
+        <div class="description col p-2">
+          <i class="bi bi-brush"></i>
+          3D Artist | calan4310@gmail.com
         </div>
-        <div class="col-xxl-4 col-xl-4 col-lg-4 col-md-6 col-sm-12">
-          <img class="collection-img" src="./assets/11.jpeg" alt="" />
-        </div>
-        <div class="col-xxl-4 col-xl-4 col-lg-4 col-md-6 col-sm-12">
-          <img class="collection-img" src="./assets/12.jpeg" alt="" />
-        </div>
-        <div class="col-xxl-4 col-xl-4 col-lg-4 col-md-6 col-sm-12">
-          <img class="collection-img" src="./assets/13.jpeg" alt="" />
-        </div>
-        <div class="col-xxl-4 col-xl-4 col-lg-4 col-md-6 col-sm-12">
-          <img class="collection-img" src="./assets/14.jpeg" alt="" />
-        </div>
-        <div class="col-xxl-4 col-xl-4 col-lg-4 col-md-6 col-sm-12">
-          <img class="collection-img" src="./assets/15.jpeg" alt="" />
-        </div>
-        <div class="col-xxl-4 col-xl-4 col-lg-4 col-md-6 col-sm-12">
-          <img class="collection-img" src="./assets/16.jpeg" alt="" />
-        </div>
-        <div class="col-xxl-4 col-xl-4 col-lg-4 col-md-6 col-sm-12">
-          <img class="collection-img" src="./assets/17.jpeg" alt="" />
+      </div>
+      <div class="row">
+        <div class="description col p-2">
+          <i class="bi bi-linkedin"></i>
+          <a href="https://www.linkedin.com/in/alan-corral-81b9651a2">
+            linkedin.com/in/alan-corral-81b9651a2
+          </a>
         </div>
       </div>
     </div>
-  </body>
+  </div>
+  <div class="container collections">
+    <!-- Videos -->
+    <div class="row">
+      <div class="col-12 text-center m-2 title-container">
+        <h3>Videos</h3>
+      </div>
+    </div>
+    <div class="row m-4 video-container">
+
+      <div class="col-xxl-4 col-xl-4 col-lg-4 col-md-6 col-sm-12">
+        <i class="bi bi-play icon"></i>
+        <video class="video" autoplay muted loop>
+          <source src="./assets/7.mp4" type="video/mp4" />
+        </video>
+      </div>
+      <div class="col-xxl-4 col-xl-4 col-lg-4 col-md-6 col-sm-12">
+        <i class="bi bi-play icon"></i>
+        <video class="video" autoplay muted loop>
+          <source src="./assets/11.mp4" type="video/mp4" />
+        </video>
+      </div>
+      <div class="col-xxl-4 col-xl-4 col-lg-4 col-md-6 col-sm-12">
+        <i class="bi bi-play icon"></i>
+        <video class="video" autoplay muted loop>
+          <source src="./assets/10.mp4" type="video/mp4" />
+        </video>
+      </div>
+      <div class="col-xxl-4 col-xl-4 col-lg-4 col-md-6 col-sm-12">
+        <i class="bi bi-play icon"></i>
+        <video class="video" autoplay muted loop>
+          <source src="./assets/8.mp4" type="video/mp4" />
+        </video>
+      </div>
+      <div class="col-xxl-4 col-xl-4 col-lg-4 col-md-6 col-sm-12">
+        <i class="bi bi-play icon"></i>
+        <video class="video" autoplay muted loop>
+          <source src="./assets/9.mp4" type="video/mp4" />
+        </video>
+      </div>
+      <div class="col-xxl-4 col-xl-4 col-lg-4 col-md-6 col-sm-12">
+        <i class="bi bi-play icon"></i>
+        <video class="video" autoplay muted loop>
+          <source src="./assets/13.mp4" type="video/mp4" />
+        </video>
+      </div>
+      <div class="col-xxl-4 col-xl-4 col-lg-4 col-md-6 col-sm-12">
+        <i class="bi bi-play icon"></i>
+        <video class="video" autoplay muted loop>
+          <source src="./assets/12.mp4" type="video/mp4" />
+        </video>
+      </div>
+      <div class="col-xxl-4 col-xl-4 col-lg-4 col-md-6 col-sm-12">
+        <i class="bi bi-play icon"></i>
+        <video class="video" autoplay muted loop>
+          <source src="./assets/4.mp4" type="video/mp4" />
+        </video>
+      </div>
+      <div class="col-xxl-4 col-xl-4 col-lg-4 col-md-6 col-sm-12">
+        <i class="bi bi-play icon"></i>
+        <video class="video" autoplay muted loop>
+          <source src="./assets/5.mp4" type="video/mp4" />
+        </video>
+      </div>
+     
+      <div class="col-xxl-4 col-xl-4 col-lg-4 col-md-6 col-sm-12">
+        <i class="bi bi-play icon"></i>
+        <video class="video" autoplay muted loop>
+          <source src="./assets/6.mp4" type="video/mp4" />
+        </video>
+      </div>
+      <div class="col-xxl-4 col-xl-4 col-lg-4 col-md-6 col-sm-12">
+        <i class="bi bi-play icon"></i>
+        <video class="video" autoplay muted loop>
+          <source src="./assets/0.mp4" type="video/mp4" />
+        </video>
+      </div>
+      <div class="col-xxl-4 col-xl-4 col-lg-4 col-md-6 col-sm-12">
+        <i class="bi bi-play icon"></i>
+        <video class="video" autoplay muted loop>
+          <source src="./assets/2.mp4" type="video/mp4" />
+        </video>
+      </div>
+      <div class="col-xxl-4 col-xl-4 col-lg-4 col-md-6 col-sm-12">
+        <i class="bi bi-play icon"></i>
+        <video class="video" autoplay muted loop>
+          <source src="./assets/3.mp4" type="video/mp4" />
+        </video>
+      </div>
+      <div class="col-xxl-4 col-xl-4 col-lg-4 col-md-6 col-sm-12">
+        <i class="bi bi-play icon"></i>
+        <video class="video" autoplay muted loop>
+          <source src="./assets/14.mp4" type="video/mp4" />
+        </video>
+      </div>
+     
+     
+    </div>
+
+    <!-- Photos -->
+    <div class="row title-container">
+      <div class="col-12 text-center m-2">
+        <h3>Screenshots</h3>
+      </div>
+    </div>
+    <div class="row m-4 image-container">
+      <div class="col-xxl-4 col-xl-4 col-lg-4 col-md-6 col-sm-12">
+        <img class="collection-img" src="./assets/09.jpeg" alt="" />
+      </div>
+      <div class="col-xxl-4 col-xl-4 col-lg-4 col-md-6 col-sm-12">
+        <img class="collection-img" src="./assets/10.jpeg" alt="" />
+      </div>
+      <div class="col-xxl-4 col-xl-4 col-lg-4 col-md-6 col-sm-12">
+        <img class="collection-img" src="./assets/11.jpeg" alt="" />
+      </div>
+      <div class="col-xxl-4 col-xl-4 col-lg-4 col-md-6 col-sm-12">
+        <img class="collection-img" src="./assets/12.jpeg" alt="" />
+      </div>
+      <div class="col-xxl-4 col-xl-4 col-lg-4 col-md-6 col-sm-12">
+        <img class="collection-img" src="./assets/13.jpeg" alt="" />
+      </div>
+      <div class="col-xxl-4 col-xl-4 col-lg-4 col-md-6 col-sm-12">
+        <img class="collection-img" src="./assets/14.jpeg" alt="" />
+      </div>
+      <div class="col-xxl-4 col-xl-4 col-lg-4 col-md-6 col-sm-12">
+        <img class="collection-img" src="./assets/15.jpeg" alt="" />
+      </div>
+      <div class="col-xxl-4 col-xl-4 col-lg-4 col-md-6 col-sm-12">
+        <img class="collection-img" src="./assets/16.jpeg" alt="" />
+      </div>
+      <div class="col-xxl-4 col-xl-4 col-lg-4 col-md-6 col-sm-12">
+        <img class="collection-img" src="./assets/17.jpeg" alt="" />
+      </div>
+    </div>
+  </div>
+
+</body>
+
 </html>
